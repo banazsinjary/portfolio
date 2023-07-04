@@ -1,0 +1,17 @@
+
+/* NavBar.tsx */
+#nav-container{
+    width:100%; 
+    justify-content: space-between;
+    display: flex;
+    margin-top: 2vmin;
+}
+
+.nav-links li{
+    display: inline;
+    padding-left: 5%;
+}
+
+.nav-links a{
+    color: black;
+}
