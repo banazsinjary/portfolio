@@ -15,9 +15,17 @@
     color: black;
 }
 
-/* LandingText.tsx */
+/* Landing.tsx */
+#landing{
+    margin-top: 30vmin;
+    display: flex;
+    margin-left: 15%;
+}
+#landing-animation{
+    margin-top: -10%;
+    width: 25vmax; 
+}
 #landing-text{
-    margin-top: 50vmin;
     width: 50%;
 }
 #landing-text p{
