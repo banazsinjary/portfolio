@@ -3,7 +3,7 @@ import "./Components.css";
 function AboutMe() {
   return (
     <>
-    <section className="section-sizing">
+    <section className="section-sizing" id="about">
       <div id="about-right">
         <div id="about-right-title">A Little More About Me</div>
         <div id="about-right-illustration">

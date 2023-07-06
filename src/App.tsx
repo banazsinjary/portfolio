@@ -1,19 +1,18 @@
-import './App.css'
-import NavBar from './assets/components/NavBar.tsx'
-import Landing from './assets/components/Landing.tsx'
-import AboutMe from './assets/components/AboutMe.tsx'
+import "./App.css";
+import NavBar from "./assets/components/NavBar.tsx";
+import Landing from "./assets/components/Landing.tsx";
+import AboutMe from "./assets/components/AboutMe.tsx";
 
 function App() {
-
   return (
     <>
-    <header>
-    <NavBar></NavBar>
-    </header>
-    <Landing></Landing>
-    <AboutMe></AboutMe>
+      <header>
+        <NavBar></NavBar>
+      </header>
+      <Landing></Landing>
+      <AboutMe></AboutMe>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
