@@ -25,7 +25,8 @@
 #landing{
     padding-top: 30vmin;
     display: flex;
-    margin-left: 15%;
+    margin-left: 10%;
+    
 }
 #landing-animation{
     margin-top: -10%;
@@ -36,4 +37,25 @@
 }
 #landing-text p{
     font-size: 40px;   
+}
+
+/* AboutMe.tsx */
+
+#about-right-title{
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+#about-spacing{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+#about-left{
+   max-width: 550px;
+}
+#about-left p{
+    font-size: 18px;
 }
