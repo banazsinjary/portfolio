@@ -7,6 +7,7 @@ import plant from './plantlottie.json'
 function Landing(){
     return(
         <>
+        <section className="section-sizing">
         <div id="landing">
         <div id="landing-text">
         <p>Hey I'm Banaz</p>
@@ -17,7 +18,7 @@ function Landing(){
         <Lottie loop={true }animationData={plant}/>
         </div>
         </div>
-        
+        </section>
         </>
     )
 }

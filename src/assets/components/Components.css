@@ -1,3 +1,8 @@
+/* Section sizing */
+.section-sizing{
+    min-height: 100vh;
+}
+
 
 /* NavBar.tsx */
 #nav-container{
@@ -14,6 +19,7 @@
 .nav-links a{
     color: black;
 }
+
 
 /* Landing.tsx */
 #landing{
