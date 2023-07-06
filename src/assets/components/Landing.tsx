@@ -7,7 +7,7 @@ import plant from './plantlottie.json'
 function Landing(){
     return(
         <>
-        <section className="section-sizing">
+        <section className="section-sizing" id="land">
         <div id="landing">
         <div id="landing-text">
         <p>Hey I'm Banaz</p>

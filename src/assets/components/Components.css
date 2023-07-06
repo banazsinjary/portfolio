@@ -23,7 +23,7 @@
 
 /* Landing.tsx */
 #landing{
-    margin-top: 30vmin;
+    padding-top: 30vmin;
     display: flex;
     margin-left: 15%;
 }
