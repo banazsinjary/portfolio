@@ -1,5 +1,5 @@
 import "./Components.css";
-import React, { useState } from 'react';
+import { useState } from 'react';
 import me from "../liloleme.png";
 
 function AboutMe() {

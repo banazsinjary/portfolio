@@ -47,6 +47,7 @@
 }
 #landing-text{
     width: 50%;
+    font-weight: 500;
 }
 #landing-text p{
     font-size: 40px;   
@@ -84,17 +85,13 @@
     
   }
   
-  .about-me-right {
+  .about-me-right p{
     text-align: left;
     max-width: 30em;
     padding-top: 3em;
     font-size: 20px;
-  }
-  
-  .about-me-right p {
     line-height: 1.5;
   }
-  
   .read-more-button{
     color: white;
   }
@@ -131,5 +128,13 @@
   .project-summary {
     font-size: 1em;
     line-height: 1.4;
+  }
+
+  /* Footer.tsx */
+
+  #feet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   

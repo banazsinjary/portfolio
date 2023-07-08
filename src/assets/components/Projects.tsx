@@ -11,8 +11,8 @@ const Projects: React.FC = () => {
       summary: "This is the summary of project 1.",
       link: '/project1',
       imageSize:{
-        width: 400,
-        height: 300,
+        width: 600,
+        height: 450,
       },
     }
     // Add more project objects as needed
