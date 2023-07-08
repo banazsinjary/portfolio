@@ -6,12 +6,18 @@ interface ProjectCardProps {
   title: string;
   summary: string;
   link: string;
+  imageSize:{
+    width: number;
+    height: number;
+  };
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, summary, link }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, summary, link, imageSize }) => {
+    const {width, height} = imageSize;
+
   return (
     <div className="project-card">
-      <img src={image} alt={title} className="project-image" />
+      <img src={image} className="project-image" style={{width, height}} />
       <div className="project-details">
         <a href={link} className="project-title">{title}</a>
         <p className="project-summary">{summary}</p>

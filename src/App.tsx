@@ -2,6 +2,7 @@ import "./App.css";
 import NavBar from "./assets/components/NavBar.tsx";
 import Landing from "./assets/components/Landing.tsx";
 import AboutMe from "./assets/components/AboutMe.tsx";
+import Projects from "./assets/components/Projects.tsx";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </header>
       <Landing></Landing>
       <AboutMe></AboutMe>
+      <Projects></Projects>
     </>
   );
 }

@@ -1,8 +1,16 @@
 /* Section sizing */
 .section-sizing{
     min-height: 100vh;
+
 }
 
+#proj{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    background-color: beige;
+}
+  
 
 /* NavBar.tsx */
 #nav-container{
@@ -59,3 +67,38 @@
 #about-left p{
     font-size: 18px;
 }
+
+/* ProjectCard.tsx */
+
+.project-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+
+  .project-card a{
+    color: black;
+  }
+  
+  .project-image {
+    flex-shrink: 0;
+    margin-right: 2em;
+    max-width: 100%;
+  }
+  
+  .project-details {
+    flex-grow: 1;
+  }
+  
+  .project-title {
+    font-size: 1.5em;
+    
+    margin-bottom: 0.5em;
+  }
+  
+  .project-summary {
+    font-size: 1em;
+    line-height: 1.4;
+  }
+  
