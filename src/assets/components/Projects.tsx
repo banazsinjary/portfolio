@@ -2,8 +2,6 @@ import "./Components.css";
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import Remindful from "../remindfulmockup.png"
-import Mealsight from "../mealsightmockup.png"
-import TabBar from "../tabbarmockup.png"
 
 const Projects: React.FC = () => {
   const projects = [

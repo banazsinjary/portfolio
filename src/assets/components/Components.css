@@ -9,6 +9,12 @@
   align-items: center;
   justify-content: center;
 }
+
+#about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
   
 
 /* NavBar.tsx */
@@ -47,25 +53,51 @@
 }
 
 /* AboutMe.tsx */
-
-#about-right-title{
-    margin-left: 5%;
-    font-size: 20px;
-}
-
-#about-spacing{
+  
+  .about-me-content {
     display: flex;
-    justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-}
-#about-left{
-   max-width: 550px;
-}
-#about-left p{
-    font-size: 18px;
-}
+    gap: 10em;
+    background-color: #95a472;
+    border-radius: 40px;
+    color: white;
+    width: 90%;
+    padding: 1em;
+    box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.2), /* Default shadow */
+  }
+  
+  .about-me-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .about-me-image {
+    width: 300px; /* Adjust the width as needed */
+    height: auto;
+    margin-bottom: 1em;
+  }
+  
+  .about-me-title {
+    font-size: 1.5em;
+    
+  }
+  
+  .about-me-right {
+    text-align: left;
+    max-width: 30em;
+    padding-top: 3em;
+    font-size: 20px;
+  }
+  
+  .about-me-right p {
+    line-height: 1.5;
+  }
+  
+  .read-more-button{
+    color: white;
+  }
 
 /* ProjectCard.tsx */
 
