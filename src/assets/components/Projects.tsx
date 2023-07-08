@@ -8,16 +8,19 @@ const Projects: React.FC = () => {
       image: "",
       title: "Remindful",
       summary: "This is the summary of project 1.",
+      link: '/project1'
     },
     {
       image: "",
       title: "Mealsight",
       summary: "This is the summary of project 2.",
+      link: '/project2'
     },
     {
       image: "",
       title: "Underline Tab Bar",
       summary: "This is the summary of project 3.",
+      link: '/project3'
     },
     // Add more project objects as needed
   ];
@@ -30,6 +33,7 @@ const Projects: React.FC = () => {
           image={project.image}
           title={project.title}
           summary={project.summary}
+          link={project.link}
         />
       ))}
     </div>
