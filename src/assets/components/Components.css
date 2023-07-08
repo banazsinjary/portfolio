@@ -120,14 +120,16 @@
   }
   
   .project-title {
-    font-size: 1.5em;
-    
-    margin-bottom: 0.5em;
+    font-size: 1.5em; 
+    padding-bottom: 2em;
+    font-weight: 500;
+    font-style: italic;
   }
   
   .project-summary {
     font-size: 1em;
     line-height: 1.4;
+    width: 70%;
   }
 
   /* Footer.tsx */
