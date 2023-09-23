@@ -9,7 +9,7 @@ function AboutMe() {
     setExpanded(!expanded);
   };
   return (
-    <section className="about-me-section" id="about">
+    <section className="section-sizing" id="about">
       <div className="about-me-content">
         <div className="about-me-left">
           <div className="about-me-title">A Little More About Me</div>

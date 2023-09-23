@@ -23,9 +23,6 @@ function NavBar() {
           </ul>
         </div>
 
-        <div className="screen-mode">
-          <p>place hold</p>
-        </div>
       </div>
     </>
   );

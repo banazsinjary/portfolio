@@ -1,7 +1,8 @@
 import "./Components.css";
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import Remindful from "../remindfulmockup.png";
+import Remindful from "../remindful.png";
+import NationalParks from "../nationalparksnap.png"
 
 const Projects: React.FC = () => {
   const projects = [
@@ -10,19 +11,30 @@ const Projects: React.FC = () => {
       title: "Remindful",
       summary:
         "Ignite productivity and embrace the magic of seamless organization for a successful and enchanting life.",
-      link: "/project1",
+      link: "",
       imageSize: {
-        width: 600,
-        height: 450,
+        width: 300,
+        height: 210,
+      },
+    },
+    {
+      image: NationalParks,
+      title: "Natonal Parks",
+      summary:
+        "Explore the beauty of national parks and discover their captivating stories through this immersive web app.",
+      link: "/project2",
+      imageSize: {
+        width: 300,
+        height: 200,
       },
     },
     // Add more project objects as needed
   ];
 
   return (
-    <section className="section-sizing" id="proj">
-      <div id="project-title"> My Technical Endeavours </div>
-      <div>
+    <section className="section-sizing">
+      <div id="project-title"> Projects </div>
+      <div id="proj">
         {projects.map((project, index) => (
           <ProjectCard
             key={index}
