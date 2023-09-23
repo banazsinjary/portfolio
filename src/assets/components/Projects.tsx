@@ -32,9 +32,8 @@ const Projects: React.FC = () => {
   ];
 
   return (
-    <section className="section-sizing">
-      <div id="project-title"> Projects </div>
-      <div id="proj">
+    <section className="section-sizing" id="proj">
+      <div>
         {projects.map((project, index) => (
           <ProjectCard
             key={index}

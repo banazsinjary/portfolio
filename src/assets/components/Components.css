@@ -1,20 +1,13 @@
+/*
+sizing storage box:
+- border radius: 20px
+*/
+
 /* Section sizing */
 .section-sizing{
     min-height: 100vh;
 }
 
-#proj{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#about{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
   
 
 /* NavBar.tsx */
@@ -26,7 +19,7 @@
 
 .nav-links li{
     display: inline;
-    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .nav-links a{
@@ -59,9 +52,9 @@
     display: flex;
     gap: 10em;
     background-color: #95a472;
-    border-radius: 40px;
+    border-radius: 20px;
+
     color: white;
-    width: 90%;
     padding: 1em;
     box-shadow:
     0 2px 4px rgba(0, 0, 0, 0.2), /* Default shadow */
@@ -99,7 +92,6 @@
 /* Projects.tsx */
 #project-title{
   font-size: 25px;
-  padding-bottom: 5%;
   font-weight: 500;
 }
 
@@ -107,10 +99,7 @@
 
 .project-card {
     display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 2em;
-    width: 100%;
   }
 
   .project-card a{
@@ -120,20 +109,15 @@
   .project-image {
     flex-shrink: 0;
     margin-right: 2em;
-    max-width: 100%;
     border: solid 1px black;
-    border-radius: 10px;
+    border-radius: 20px;
   }
   
-  .project-details {
-    flex-grow: 1;
-  }
   
   .project-title {
     font-size: 1.5em; 
     padding-bottom: 2em;
     font-weight: 500;
-    font-style: italic;
   }
   
   .project-summary {
