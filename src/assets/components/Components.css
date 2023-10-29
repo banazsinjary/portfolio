@@ -5,7 +5,7 @@ sizing storage box:
 
 /* Section sizing */
 .section-sizing{
-    min-height: 100vh;
+   margin-left: 10%;
 }
 
   
@@ -31,7 +31,7 @@ sizing storage box:
 #landing{
     padding-top: 30vmin;
     display: flex;
-    margin-left: 10%;
+    margin-bottom: 10%;
     
 }
 #landing-animation{
@@ -90,33 +90,31 @@ sizing storage box:
   }
 
 /* Projects.tsx */
-#project-title{
-  font-size: 25px;
+#project-section-title{
+  font-size: 30px;
   font-weight: 500;
+  margin-bottom: 3%;
 }
 
 /* ProjectCard.tsx */
-
+#proj{
+  margin-bottom: 10%;
+}
 .project-card {
     display: flex;
-    margin-bottom: 2em;
+    margin-bottom: 5%;
   }
 
   .project-card a{
-    color: black;
+    color: #9ebb89;
   }
-  
-  .project-image {
-    flex-shrink: 0;
-    margin-right: 2em;
-    border: solid 1px black;
-    border-radius: 20px;
+  .project-card a:hover{
+    color: #3e535d;
   }
-  
   
   .project-title {
     font-size: 1.5em; 
-    padding-bottom: 2em;
+    padding-bottom: 2%;
     font-weight: 500;
   }
   
@@ -124,6 +122,7 @@ sizing storage box:
     font-size: 1em;
     line-height: 1.4;
     width: 70%;
+    padding-bottom: 2%;
   }
 
   /* Footer.tsx */

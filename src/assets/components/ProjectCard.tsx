@@ -2,25 +2,21 @@ import "./Components.css";
 import React from "react";
 
 interface ProjectCardProps {
-  image: string;
   title: string;
   summary: string;
-  link: string;
-  imageSize:{
-    width: number;
-    height: number;
-  };
+  githubLink: string;
+  iconClass: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ image, title, summary, link, imageSize }) => {
-    const {width, height} = imageSize;
+const ProjectCard: React.FC<ProjectCardProps> = ({ title, summary, githubLink, iconClass}) => {
 
   return (
     <div className="project-card">
-      <img src={image} className="project-image" style={{width, height}} />
+       <div className={`project-icon ${iconClass}`}></div>
       <div className="project-details">
-        <a href={link} className="project-title">{title}</a>
+        <p className="project-title">{title}</p>
         <p className="project-summary">{summary}</p>
+        <a href={githubLink} className="github-link">Github</a>
       </div>
     </div>
   );
