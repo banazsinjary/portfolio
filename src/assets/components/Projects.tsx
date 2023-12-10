@@ -13,13 +13,18 @@ const Projects: React.FC = () => {
       iconClass:""
     },
     {
-
       title: "Natonal Parks",
       summary:
         "Explore the beauty of national parks and discover their captivating stories through this immersive web app.",
       githubLink: "https://github.com/banazsinjary/national-parks",
       iconClass:""
     },
+    {
+      title: "NPM Tab Bar",
+      summary:"Modernize web navigation with a sleek underlined tab bar for seamless user experiences",
+      githubLink: "https://github.com/banazsinjary/iaux-underlined-tab-bar",
+      iconClass:""
+    }
     // Add more project objects as needed
   ];
 
