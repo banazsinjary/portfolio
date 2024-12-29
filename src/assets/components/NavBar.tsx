@@ -16,7 +16,7 @@ function NavBar() {
               <a href="mailto: banazsinjary@gmail.com">Email</a>
             </li>
             <li>
-              <a href="https://drive.google.com/file/d/1qQHP4RSuHMQB4jOK9YBc0IEYyJiK0D7t/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1NDbF9aHllQHAhdXI3WuHlxE7aVUnXe8V/view?usp=sharing">
                 Resume
               </a>
             </li>
