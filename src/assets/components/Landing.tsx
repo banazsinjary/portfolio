@@ -11,7 +11,7 @@ function Landing() {
         <div id="landing">
           <div id="landing-text">
             <p>Hey I'm Banaz</p>
-            <p>I'm a blend of App Designer, Developer, </p>
+            <p>I'm a blend of data scientist, machine learning engineer</p>
             <p>{<SwitchText></SwitchText>}</p>
           </div>
           <div id="landing-animation">
