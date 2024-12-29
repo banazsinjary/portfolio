@@ -117,6 +117,10 @@ sizing storage box:
     padding-bottom: 2%;
     font-weight: 500;
   }
+
+  .project-link {
+    margin-right: 10px;
+  }
   
   .project-summary {
     font-size: 1em;
