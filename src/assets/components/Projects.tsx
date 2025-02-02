@@ -24,6 +24,15 @@ const Projects: React.FC = () => {
       iconClass: ""
     },
     {
+      title: "Recipes Web App",
+      summary:
+        "This web app lets users browse a selection of delicious recipes where they can view different nutritional facts and details about each recipe.",
+      links: [
+        { label: "GitHub", url: "https://github.com/A-Singh15/Recipies-Webapp" }
+      ],
+      iconClass: ""
+    },
+    {
       title: "NPM Tab Bar",
       summary:
         "Modernize web navigation with a sleek underlined tab bar for seamless user experiences.",
