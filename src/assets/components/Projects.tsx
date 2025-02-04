@@ -15,13 +15,22 @@ const Projects: React.FC = () => {
       iconClass: ""
     },
     {
+      title: "Credit Card Fraud Exploration",
+      summary:
+        "",
+      links: [
+        { label: "GitHub", url: "https://github.com/banazsinjary/credit-card-fraud-detection" }
+      ],
+      iconClass: ""
+    },
+    {
       title: "Shark Attack Analysis",
       summary:
         "Explored global shark attack data using visualization techniques to uncover patterns and insights.",
       links: [
         { label: "Tableau", url: "https://public.tableau.com/app/profile/banaz.sinjary/viz/805_shark_attack/Story1" }
       ],
-      iconClass: ""
+      iconClass: "This project visualizes credit card transactions, highlighting fraud patterns and transaction trends through interactive charts and data analysis."
     },
     {
       title: "Recipes Web App",
