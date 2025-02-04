@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
     {
       title: "Credit Card Fraud Exploration",
       summary:
-        "",
+        "This project visualizes credit card transactions, highlighting fraud patterns and transaction trends through interactive charts and data analysis.",
       links: [
         { label: "GitHub", url: "https://github.com/banazsinjary/credit-card-fraud-detection" }
       ],
