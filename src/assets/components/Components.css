@@ -120,7 +120,30 @@ sizing storage box:
 
   .project-link {
     margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
   }
+
+  .project-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.project-tag {
+  font-size: 0.7em;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.tag-ux-research { background-color: #e8f0e2; color: #4a6741; }
+.tag-data-analysis { background-color: #e2eaf0; color: #3a5a72; }
+.tag-design { background-color: #f0e8f0; color: #6a3a72; }
+.tag-machine-learning { background-color: #f0ece2; color: #6a5a32; }
+.tag-frontend-dev { background-color: #e2f0ec; color: #2d6b5a; }
   
   .project-summary {
     font-size: 1em;
