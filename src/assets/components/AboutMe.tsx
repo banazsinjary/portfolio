@@ -1,6 +1,6 @@
 import "./Components.css";
-import { useState } from 'react';
-import me from "../liloleme.png";
+import { useState } from "react";
+import me from "../abtmeimg.jpeg";
 
 function AboutMe() {
   const [expanded, setExpanded] = useState(false);
@@ -8,46 +8,34 @@ function AboutMe() {
   const handleToggle = () => {
     setExpanded(!expanded);
   };
+
   return (
     <section className="section-sizing" id="about">
       <div className="about-me-content">
         <div className="about-me-left">
           <div className="about-me-title">A Little More About Me</div>
-          <img src={me} className="about-me-image" />
+          <img src={me} className="about-me-image" alt="Banaz" />
         </div>
         <div className="about-me-right">
           <p>
-            Hey there! I'm Banaz, a recent graduate with a Bachelors of Science
-            in Computer Science from San Francisco State University. 🎓 During
-            my two-year-long front-end development internship, I delved into the
-            wonderful world of TypeScript and Litelement frameworks, mastering
-            the art of crafting dynamic and user-friendly web experiences. 💻
-            APIs and maintaining legacy code? No problemo! 
+            Hey there! I'm Banaz, a recent graduate with a Master's in Data
+            Science and AI from San Francisco State University, where I also
+            earned my Bachelor's in Computer Science. 🎓 My thesis explored
+            how time-based nudges in virtual reality can support wellbeing,
+            which got me hooked on research that puts people first.
           </p>
-          <br/>
+          <br />
           {expanded ? (
             <>
               <p>
-                Beyond coding, I find solace in exploring the great outdoors and conquering hiking trails.
-                Nature fuels my creativity and inspires my problem-solving skills.
-                🌲 When I'm not immersed in the tech world, you'll find me
-                perfecting my yoga poses, finding my zen on the mat. 🧘 And did I
-                mention I'm a coffee aficionado? As a skilled barista, I create
-                delicious caffeinated wonders to kickstart the day. ☕
+                Beyond work, I find solace in exploring the great outdoors
+                and conquering hiking trails. 🌲 I'm currently training for my
+                first half marathon 🏃‍♀️ and working toward my dream of doing
+                the Machu Picchu trek. ⛰️ When I'm not out in search of
+                adventure, I can be found with my cat Sage in my lap, watching
+                New Girl reruns. 🐱📺
               </p>
-              <br/>
-              <p>
-                With an innate curiosity and a passion for continuous learning, I thrive in
-                fast-paced environments that fuel my hunger for growth. I embrace
-                challenges with open arms, always seeking opportunities to expand my
-                knowledge and skill set. 🚀
-              </p>
-              <br/>
-              <p>
-                Join me on this exciting journey as we explore the intersections of technology, nature, and
-                self-expression. Let's create something incredible together!
-              </p>
-              <br/>
+              <br />
               <button className="read-more-button" onClick={handleToggle}>
                 Read less...
               </button>
@@ -62,4 +50,5 @@ function AboutMe() {
     </section>
   );
 }
+
 export default AboutMe;

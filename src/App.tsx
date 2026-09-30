@@ -2,7 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import NavBar from "./assets/components/NavBar.tsx";
 import Landing from "./assets/components/Landing.tsx";
-//import AboutMe from "./assets/components/AboutMe.tsx";
+import AboutMe from "./assets/components/AboutMe.tsx";
 import Projects from "./assets/components/Projects.tsx";
 import Cases from "./assets/components/Cases.tsx";
 import Footer from "./assets/components/Footer.tsx";
@@ -38,6 +38,8 @@ function App() {
       </div>
 
       {tab === "projects" ? <Projects></Projects> : <Cases></Cases>}
+
+      <AboutMe></AboutMe>
 
       <Footer></Footer>
     </>

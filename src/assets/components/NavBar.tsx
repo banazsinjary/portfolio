@@ -20,6 +20,9 @@ function NavBar() {
                 Resume
               </a>
             </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
           </ul>
         </div>
 
