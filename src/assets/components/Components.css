@@ -4,127 +4,116 @@ sizing storage box:
 */
 
 /* Section sizing */
-.section-sizing{
-   margin-left: 10%;
+.section-sizing {
+  margin-left: 10%;
 }
-
-  
 
 /* NavBar.tsx */
-#nav-container{
-    width:100%; 
-    justify-content: space-between;
-    display: flex;
+#nav-container {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
 }
 
-.nav-links li{
-    display: inline;
-    padding-right: 5%;
+.nav-links li {
+  display: inline;
+  padding-right: 5%;
 }
 
-.nav-links a{
-    color: black;
+.nav-links a {
+  color: black;
 }
-
 
 /* Landing.tsx */
-#landing{
-    padding-top: 30vmin;
-    display: flex;
-    margin-bottom: 10%;
-    
+#landing {
+  padding-top: 30vmin;
+  display: flex;
+  margin-bottom: 10%;
 }
-#landing-animation{
-    margin-top: -10%;
-    width: 25vmax; 
+#landing-text {
+  width: 50%;
+  font-weight: 500;
 }
-#landing-text{
-    width: 50%;
-    font-weight: 500;
-}
-#landing-text p{
-    font-size: 40px;   
+#landing-text p {
+  font-size: 40px;
 }
 
 /* AboutMe.tsx */
-  
-  .about-me-content {
-    display: flex;
-    gap: 10em;
-    background-color: #95a472;
-    border-radius: 20px;
 
-    color: white;
-    padding: 1em;
-    box-shadow:
-    0 2px 4px rgba(0, 0, 0, 0.2), /* Default shadow */
-  }
-  
-  .about-me-left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-  }
-  
-  .about-me-image {
-    width: 300px; /* Adjust the width as needed */
-    height: auto;
-    margin-bottom: 1em;
-  }
-  
-  .about-me-title {
-    font-size: 1.5em;
-    
-  }
-  
-  .about-me-right p{
-    text-align: left;
-    max-width: 30em;
-    padding-top: 3em;
-    font-size: 20px;
-    line-height: 1.5;
-  }
-  .read-more-button{
-    color: white;
-  }
+.about-me-content {
+  display: flex;
+  gap: 10em;
+  background-color: #95a472;
+  border-radius: 20px;
+
+  color: white;
+  padding: 1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Default shadow */
+}
+
+.about-me-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-me-image {
+  width: 300px; /* Adjust the width as needed */
+  height: auto;
+  margin-bottom: 1em;
+}
+
+.about-me-title {
+  font-size: 1.5em;
+}
+
+.about-me-right p {
+  text-align: left;
+  max-width: 30em;
+  padding-top: 3em;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.read-more-button {
+  color: white;
+}
 
 /* Projects.tsx */
-#project-section-title{
+#project-section-title {
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 3%;
 }
 
 /* ProjectCard.tsx */
-#proj{
+#proj {
   margin-bottom: 10%;
 }
 .project-card {
-    display: flex;
-    margin-bottom: 5%;
-  }
+  display: flex;
+  margin-bottom: 5%;
+}
 
-  .project-card a{
-    color: #9ebb89;
-  }
-  .project-card a:hover{
-    color: #3e535d;
-  }
-  
-  .project-title {
-    font-size: 1.5em; 
-    padding-bottom: 2%;
-    font-weight: 500;
-  }
+.project-card a {
+  color: #9ebb89;
+}
+.project-card a:hover {
+  color: #3e535d;
+}
 
-  .project-link {
-    margin-right: 10px;
-    margin-top: 10px;
-    display: inline-block;
-  }
+.project-title {
+  font-size: 1.5em;
+  padding-bottom: 2%;
+  font-weight: 500;
+}
 
-  .project-tags {
+.project-link {
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.project-tags {
   display: flex;
   gap: 6px;
   flex-wrap: wrap;
@@ -139,24 +128,126 @@ sizing storage box:
   letter-spacing: 0.03em;
 }
 
-.tag-ux-research { background-color: #e8f0e2; color: #4a6741; }
-.tag-data-analysis { background-color: #e2eaf0; color: #3a5a72; }
-.tag-design { background-color: #f0e8f0; color: #6a3a72; }
-.tag-machine-learning { background-color: #f0ece2; color: #6a5a32; }
-.tag-frontend-dev { background-color: #e2f0ec; color: #2d6b5a; }
-  
-  .project-summary {
-    font-size: 1em;
-    line-height: 1.4;
-    width: 70%;
-    padding-bottom: 2%;
-  }
+.tag-ux-research {
+  background-color: #e8f0e2;
+  color: #4a6741;
+}
+.tag-data-analysis {
+  background-color: #e2eaf0;
+  color: #3a5a72;
+}
+.tag-design {
+  background-color: #f0e8f0;
+  color: #6a3a72;
+}
+.tag-machine-learning {
+  background-color: #f0ece2;
+  color: #6a5a32;
+}
+.tag-frontend-dev {
+  background-color: #e2f0ec;
+  color: #2d6b5a;
+}
 
-  /* Footer.tsx */
+.project-summary {
+  font-size: 1em;
+  line-height: 1.4;
+  width: 70%;
+  padding-bottom: 2%;
+}
 
-  #feet{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
+/* Footer.tsx */
+
+#feet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tabs (App.tsx) */
+.work-tabs {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  margin-bottom: 3%;
+}
+
+.work-tab {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  font-size: 30px;
+  font-weight: 500;
+  color: inherit;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.work-tab.active {
+  opacity: 1;
+}
+
+.work-tab:hover {
+  color: #3e535d;
+  opacity: 1;
+}
+
+.work-tab-divider {
+  font-size: 30px;
+  opacity: 0.4;
+}
+
+/* Cases.tsx */
+#cases {
+  margin-bottom: 10%;
+}
+
+/* CaseCard.tsx */
+.case-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 10px;
+  font: inherit;
+  color: #9ebb89;
+  cursor: pointer;
+}
+
+.case-toggle:hover {
+  color: #3e535d;
+}
+
+.case-details {
+  width: 70%;
+  margin-top: 1.5em;
+  line-height: 1.5;
+}
+
+.case-section {
+  margin-bottom: 1.5em;
+}
+
+.case-section h3 {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin: 0 0 0.5em;
+}
+
+.case-section p {
+  margin: 0 0 0.75em;
+}
+
+.case-section ul {
+  margin: 0 0 0.75em;
+  padding-left: 1.25em;
+}
+
+.case-section li {
+  margin-bottom: 0.4em;
+}
+
+.case-overview {
+  list-style: none;
+  padding-left: 0 !important;
+}

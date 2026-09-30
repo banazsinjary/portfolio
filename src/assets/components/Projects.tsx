@@ -5,19 +5,6 @@ import ProjectCard from "./ProjectCard";
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: "Swamp Meet",
-      summary:
-        "A mobile event discovery app designed for SFSU students, addressing the gap in campus event visibility. Led user research via surveys and interviews, developed personas, and iterated through lo-fi and hi-fi Figma prototypes. Usability testing informed improvements to navigation language and event creation flows.",
-      links: [
-        {
-          label: "Figma",
-          url: "https://www.figma.com/design/DkzyVgteahcUeOs7tCAaar/Group-10?node-id=7-369&t=ZJTxxVgFe7L0IftO-1",
-        },
-      ],
-      tags: ["UX Research", "Design"],
-      iconClass: "",
-    },
-    {
       title: "Human Pose Estimation",
       summary:
         "Leveraged deep learning to analyze human poses, utilizing the MPII dataset for advanced predictive modeling.",
@@ -98,7 +85,6 @@ const Projects: React.FC = () => {
 
   return (
     <section className="section-sizing" id="proj">
-      <p id="project-section-title">Projects</p>
       <div>
         {projects.map((project, index) => (
           <ProjectCard
