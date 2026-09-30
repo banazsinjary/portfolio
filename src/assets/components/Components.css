@@ -26,12 +26,22 @@ sizing storage box:
 
 /* Landing.tsx */
 #landing {
-  padding-top: 30vmin;
+  padding-top: 15vmin;
   display: flex;
   margin-bottom: 10%;
+  align-items: center;
+  gap: 10%;
+}
+
+#landing-photo {
+  width: 23vmax;
+  max-width: 350px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 20px;
 }
 #landing-text {
-  width: 50%;
+  width: 45%;
   font-weight: 500;
 }
 #landing-text p {

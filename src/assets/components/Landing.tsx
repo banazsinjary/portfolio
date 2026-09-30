@@ -1,5 +1,6 @@
 import "./Components.css";
 import SwitchText from "./SwitchText";
+import photo from "../landingimg.jpeg";
 
 function Landing() {
   return (
@@ -11,6 +12,7 @@ function Landing() {
             <p>I'm a blend of data analyst, researcher, project planner</p>
             <SwitchText />
           </div>
+          <img src={photo} alt="Banaz" id="landing-photo" />
         </div>
       </section>
     </>
